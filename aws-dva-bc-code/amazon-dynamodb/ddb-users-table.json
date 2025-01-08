@@ -1,0 +1,279 @@
+{
+    "BootcampUsers": [
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U1"},
+            "Timestamp": {"N": "1631083945"},
+            "FirstName": {"S": "Alice"},
+            "LastName": {"S": "Smith"},
+            "Age": {"N": "30"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U2"},
+            "Timestamp": {"N": "1631083946"},
+            "FirstName": {"S": "Bob"},
+            "LastName": {"S": "Johnson"},
+            "Age": {"N": "45"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U3"},
+            "Timestamp": {"N": "1631083947"},
+            "FirstName": {"S": "Carol"},
+            "LastName": {"S": "Williams"},
+            "Age": {"N": "27"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U4"},
+            "Timestamp": {"N": "1631083948"},
+            "FirstName": {"S": "David"},
+            "LastName": {"S": "Brown"},
+            "Age": {"N": "32"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U5"},
+            "Timestamp": {"N": "1631083949"},
+            "FirstName": {"S": "Eva"},
+            "LastName": {"S": "Jones"},
+            "Age": {"N": "24"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U6"},
+            "Timestamp": {"N": "1631083950"},
+            "FirstName": {"S": "Frank"},
+            "LastName": {"S": "Garcia"},
+            "Age": {"N": "36"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U7"},
+            "Timestamp": {"N": "1631083951"},
+            "FirstName": {"S": "Grace"},
+            "LastName": {"S": "Martinez"},
+            "Age": {"N": "41"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U8"},
+            "Timestamp": {"N": "1631083952"},
+            "FirstName": {"S": "Henry"},
+            "LastName": {"S": "Miller"},
+            "Age": {"N": "29"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U9"},
+            "Timestamp": {"N": "1631083953"},
+            "FirstName": {"S": "Isla"},
+            "LastName": {"S": "Davis"},
+            "Age": {"N": "28"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U10"},
+            "Timestamp": {"N": "1631083954"},
+            "FirstName": {"S": "Jack"},
+            "LastName": {"S": "Gonzalez"},
+            "Age": {"N": "40"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U11"},
+            "Timestamp": {"N": "1631083955"},
+            "FirstName": {"S": "Kara"},
+            "LastName": {"S": "Perez"},
+            "Age": {"N": "35"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U12"},
+            "Timestamp": {"N": "1631083956"},
+            "FirstName": {"S": "Liam"},
+            "LastName": {"S": "Wilson"},
+            "Age": {"N": "39"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U13"},
+            "Timestamp": {"N": "1631083957"},
+            "FirstName": {"S": "Mia"},
+            "LastName": {"S": "Taylor"},
+            "Age": {"N": "33"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U14"},
+            "Timestamp": {"N": "1631083958"},
+            "FirstName": {"S": "Noah"},
+            "LastName": {"S": "Anderson"},
+            "Age": {"N": "22"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U15"},
+            "Timestamp": {"N": "1631083959"},
+            "FirstName": {"S": "Olivia"},
+            "LastName": {"S": "Thomas"},
+            "Age": {"N": "31"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U16"},
+            "Timestamp": {"N": "1631083960"},
+            "FirstName": {"S": "Peter"},
+            "LastName": {"S": "Jackson"},
+            "Age": {"N": "37"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U17"},
+            "Timestamp": {"N": "1631083961"},
+            "FirstName": {"S": "Quinn"},
+            "LastName": {"S": "White"},
+            "Age": {"N": "25"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U18"},
+            "Timestamp": {"N": "1631083962"},
+            "FirstName": {"S": "Riley"},
+            "LastName": {"S": "Harris"},
+            "Age": {"N": "42"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U19"},
+            "Timestamp": {"N": "1631083963"},
+            "FirstName": {"S": "Samuel"},
+            "LastName": {"S": "Martin"},
+            "Age": {"N": "34"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U20"},
+            "Timestamp": {"N": "1631083964"},
+            "FirstName": {"S": "Tina"},
+            "LastName": {"S": "Thompson"},
+            "Age": {"N": "26"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U21"},
+            "Timestamp": {"N": "1631083965"},
+            "FirstName": {"S": "Uma"},
+            "LastName": {"S": "Garcia"},
+            "Age": {"N": "28"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U22"},
+            "Timestamp": {"N": "1631083966"},
+            "FirstName": {"S": "Victor"},
+            "LastName": {"S": "Robinson"},
+            "Age": {"N": "45"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U23"},
+            "Timestamp": {"N": "1631083967"},
+            "FirstName": {"S": "Wendy"},
+            "LastName": {"S": "Clark"},
+            "Age": {"N": "32"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U24"},
+            "Timestamp": {"N": "1631083968"},
+            "FirstName": {"S": "Xavier"},
+            "LastName": {"S": "Rodriguez"},
+            "Age": {"N": "29"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "UserId": {"S": "U25"},
+            "Timestamp": {"N": "1631083969"},
+            "FirstName": {"S": "Yasmine"},
+            "LastName": {"S": "Lewis"},
+            "Age": {"N": "36"}
+          }
+        }
+      }
+    ]
+}

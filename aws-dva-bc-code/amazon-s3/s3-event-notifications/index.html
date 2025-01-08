@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>File Upload Form</title>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.963.0.min.js"></script>
+  </head>
+  <body>
+    <h1>File Upload Form</h1>
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()">Upload</button>
+
+    <script>
+      AWS.config.update({
+        accessKeyId: 'ACCESS_KEY_ID',
+        secretAccessKey: 'SECRET_ACCESS_KEY',
+        region: 'us-east-1'
+      });
+
+      const bucketName = 'bootcamp-s3-uploads';
+      const s3 = new AWS.S3({ apiVersion: '2006-03-01' });
+
+      function uploadFile() {
+        const fileInput = document.getElementById('fileInput');
+        const file = fileInput.files[0];
+        const params = {
+          Bucket: bucketName,
+          Key: file.name,
+          Body: file,
+          ContentType: file.type
+        };
+
+        s3.upload(params, (err, data) => {
+          if (err) {
+            console.error('Error uploading file:', err);
+          } else {
+            console.log('File uploaded successfully:', data);
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
